@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #A9A9A9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    border: 1px;
+}
+
+h1,
+h2 {
+    margin-left: 10px;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(87, 85, 85);
+}
+
+p {
+    color: rgba(114, 110, 110, 0.877);
+    padding: 5px;
+    margin-left: 10px;
+}
+
+p strong {
+    color: rgb(87, 85, 85);
+}
+
+.menu {
+    display: flex;
+}
+
+/* Container B 300px largura e flutuara left margem interna 15px */
+nav {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+nav a {
+    color: rgba(114, 110, 110, 0.877);
+    padding-bottom: 25px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    color: rgba(204, 196, 196, 0.877);
+
+}
+
+hr {
+    margin: 15px;
+}
+
+.containerC {
+    width: 610px;
+    display: flex;
+}
+
+.containerC img {
+    width: 250px;
+    height: 150px;
+    margin-top: 80px;
+    border: 1px solid rgba(204, 196, 196, 0.877);
+
+}
+
+section {
+    width: 610px;
+    padding-left: 20px;
+}
+
+section h3 {
+    font-weight: bold;
+    line-height: 2px;
+    line-height: 2em;
+}
+
+section a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 3em;
+}
+
+section a:hover {
+    color: #A9A9A9;
+}
+
+section p strong {
+    display: block;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(207, 205, 205);
+    border-top: 1px solid #A9A9A9;
+
+}
+
+footer ul {
+    padding: 20px;
+    list-style-type: none;
+}
+
+footer ul li a {
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+footer ul li {
+    padding-bottom: 10px;
+}
+
+footer img {
+    height: 150px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* Pg Contato */
+header ul {
+    list-style-type: none;
+}
+
+header ul li a {
+    padding: 15px;
+    color: rgb(148, 143, 143);
+    font-weight: bold;
+    text-decoration: none;
+
+}
